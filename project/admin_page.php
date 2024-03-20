@@ -48,6 +48,8 @@
           <th>Last Name</th>
           <th>Image</th>
           <th>Email</th>
+          <th>Position</th>
+          <th>Salary</th>
           <th>Country</th>
           <th>Gender</th>
           <th>Actions</th>
@@ -81,6 +83,18 @@
           <label class="form-label">Email</label>
           <input type="email" class="form-control" name="email" placeholder="name@example.com">
         </div>
+
+      <div class="row mb-3">
+        <div class="col">
+          <label class="form-label">Position</label>
+          <input type="text" class="form-control" name="position" placeholder="Position">
+        </div>
+        <div class="col">
+          <label class="form-label">Salary</label>
+          <input type="text" class="form-control" name="salary" placeholder="Salary">
+        </div>
+      </div>
+
         <div class="row mb-3">
           <label class="form-label">Upload Image</label>
           <div class="col-2">
@@ -386,6 +400,18 @@
           <label class="form-label">Email</label>
           <input type="email" class="form-control" name="email" placeholder="name@example.com">
         </div>
+
+        <div class="row mb-3">
+        <div class="col">
+          <label class="form-label">Position</label>
+          <input type="text" class="form-control" name="position" placeholder="Position">
+        </div>
+        <div class="col">
+          <label class="form-label">Salary</label>
+          <input type="text" class="form-control" name="salary" placeholder="Salary">
+        </div>
+      </div>
+
         <div class="row mb-3">
           <label class="form-label">Upload Image</label>
           <div class="col-2">

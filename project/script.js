@@ -31,6 +31,8 @@ $(document).ready(function() {
               value.last_name,
               '<img src="uploads/' + value.image + '" style="width:50px;height:50px;border:2px solid gray;border-radius:8px;object-fit:cover">',
               value.email,
+              value.position,
+              value.salary,
               value.country,
               value.gender,
               '<Button type="button" class="btn editBtn" value="' + value.id + '"><i class="fa-solid fa-pen-to-square fa-xl"></i></Button>' +
@@ -96,6 +98,8 @@ $(document).ready(function() {
           $("#editForm input[name='first_name']").val(data.first_name);
           $("#editForm input[name='last_name']").val(data.last_name);
           $("#editForm input[name='email']").val(data.email);
+          $("#editForm input[name='position']").val(data.position);
+          $("#editForm input[name='salary']").val(data.salary);
           $("#editForm select[name='country']").val(data.country);
           $("#editForm .preview_img").attr("src", "uploads/" + data.image + "");
           $("#editForm #image_old").val(data.image);
